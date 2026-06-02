@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/unicef",
+  "title": "Unicef",
+  "description": "UNICEF Data (UN Children's Fund) MCP — global statistics on child health,",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/unicef",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-unicef",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/unicef/mcp"
+    }
+  ]
+}

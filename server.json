@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/unicef",
   "title": "Unicef",
   "description": "UNICEF Data (UN Children's Fund) MCP — global statistics on child health,",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/unicef",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-unicef",

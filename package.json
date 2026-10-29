@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-unicef",
-  "version": "0.1.4",
-  "description": "UNICEF Data (UN Children's Fund) MCP — global statistics on child health,",
+  "version": "0.2.0",
+  "description": "UNICEF Data (UN Children's Fund) MCP — global statistics on child health, nutrition, education, protection, child mortality, poverty, water/sanitation and the child-related SDGs, via UNICEF's public SDMX 2.1 REST API. No key.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-unicef": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "unicef"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-unicef.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/unicef",
   "pipeworx": {
-    "sourceHash": "v1-def854070b70160ebbb974f10b30903e9089a4eff61d078f3b298c51026fdfb2",
-    "sourceCommit": "a00767651388cfd017fdeac82188622721db2051"
+    "mode": "gateway",
+    "slug": "unicef",
+    "gatewaySlug": "unicef",
+    "sourceHash": "v1-be84f69008a394ab381690c1c007a2f7a339be0046f02ecd34d6bb51126d0c00",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }

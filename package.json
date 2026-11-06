@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-unicef",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "UNICEF Data (UN Children's Fund) MCP — global statistics on child health, nutrition, education, protection, child mortality, poverty, water/sanitation and the child-related SDGs, via UNICEF's public SDMX 2.1 REST API. No key.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "unicef",
     "gatewaySlug": "unicef",
-    "sourceHash": "v1-be84f69008a394ab381690c1c007a2f7a339be0046f02ecd34d6bb51126d0c00",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-745c974d471e6feadd8c30203fa16a5bca40ec7e97957084dae63a0751d2201d",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
